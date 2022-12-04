@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    
+   ;
+}
+
+.header{
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks{
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.navlinks > li {
+    display: inline;
+    margin: 20px;
+    font-size: x-large;
+}
+
+.navlinks > li:hover {
+    background-color:brown
+    padding: 8px;
+    border-top-left-radius: 4px;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 10px 2px rgb(23, 196, 196);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.title  h1{
+    color: brown;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title h1,p{
+    margin-bottom: 35px;
+}
+
+.title a{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid brown;
+    text-decoration: none;
+}
+
+.title a:hover{
+    background-color: white;
+    color: brown
+    font-weight: bold;
+}
+
+.socials{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+}
+
+.socials a{
+    margin: 0 25px;
+}
+
+.twitter:hover{
+    fill: #00acee;
+}
+
+.facebook:hover{
+    fill:#3b5998;
+}
+
+.insta:hover{
+    fill: #8a3ab9;
+}
+
+.cards-section{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    box-sizing: border-box;
+}
+
+.cards-section h3{
+    margin: 25px;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    height: 425px;
+    background-color: white;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.card img{
+    width: 150px;
+    margin: 15px  42px;
+    border-radius: 50%;
+    border: 1px solid brown
+}
+
+.card h4{
+    text-align: center;
+}
+
+.card hr{
+    margin: 10px 10%;
+}
+
+.card p{
+    margin: 7px 10%;
+    text-align: justify;
+    
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+}
+
+.author-container{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.author h3{
+    margin: 25px;
+}
+
+.headshot{
+    width: 175px;
+    border-radius: 50%;
+}
+
+.author-container img, p{
+    margin: 20px 35px;
+    text-align: justify;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    box-sizing: border-box;
+    color:white;
+}
+
+.contact-container h3{
+    margin: 25px;
+    color: white;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.address-boxes{
+    width: 400px;
+    height: 250px;
+    background-color:brown;
+}
+
+.address-boxes p{
+    color: white;
+    font-weight: stronger;
+    align-items: center;
+
+}
+
+.contact-container > p{
+    background-color: rgb(160, 155, 155);
+    height: 100px;
+    margin:50px;
+  
+}
